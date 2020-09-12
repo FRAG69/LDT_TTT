@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"		"Unique Hud"
+	"version"	"2.0"
+	"up_date"	"10th October 2011"
+	"author_name"	"Theweirdgeek"
+	"author_email"	"jake@ives.net"
+	"author_url"	"http://jakeives.net"
+	"info"		"Displays the players rank on the server."
+	"override"	"0"
+}

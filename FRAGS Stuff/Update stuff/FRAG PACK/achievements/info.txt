@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"LDT achievements"
+	"version"			"1.0"
+	"up_date"			"July 13th 2011 by FRAG"
+	"author_name"		"original by RabidToaster, Updated, Fixed and built upon by FRAG "
+	"author_email"		""
+	"author_url"		"http://www.ldt-clan.com"
+	"info"				""
+	"override"			"0"
+}

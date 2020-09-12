@@ -1,0 +1,17 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="9">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="360" startPos="141" endPos="141" selMode="0" lang="Lua" encoding="-1" filename="C:\Games\Steam\steamapps\calle0411\garrysmod\garrysmod\gamemodes\gearfox\gamemode\init.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="840" startPos="27" endPos="49" selMode="0" lang="Lua" encoding="-1" filename="C:\Games\Steam\steamapps\calle0411\garrysmod\garrysmod\gamemodes\gearfox\gamemode\cl_init.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1024" startPos="438" endPos="377" selMode="0" lang="Lua" encoding="-1" filename="C:\Games\Steam\steamapps\calle0411\garrysmod\garrysmod\gamemodes\gearfox\gamemode\cl_hud\draw_chatbox.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="392" startPos="390" endPos="379" selMode="0" lang="Lua" encoding="-1" filename="C:\Games\Steam\steamapps\calle0411\garrysmod\garrysmod\gamemodes\gearfox\gamemode\cl_various\colors.lua" />
+            <File firstVisibleLine="100" xOffset="0" scrollWidth="856" startPos="2993" endPos="2993" selMode="0" lang="Lua" encoding="-1" filename="C:\Games\Steam\steamapps\calle0411\garrysmod\garrysmod\gamemodes\gearfox\gamemode\cl_hud\menus\menu_functionlist.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="608" startPos="296" endPos="282" selMode="0" lang="Lua" encoding="-1" filename="C:\Games\Steam\steamapps\calle0411\garrysmod\garrysmod\gamemodes\gearfox\gamemode\cl_various\fonts.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="816" startPos="129" endPos="129" selMode="0" lang="Lua" encoding="-1" filename="C:\Games\Steam\steamapps\calle0411\garrysmod\garrysmod\gamemodes\gearfox\gamemode\cl_hud\draw.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="560" startPos="125" endPos="0" selMode="0" lang="Lua" encoding="-1" filename="C:\Games\Steam\steamapps\calle0411\garrysmod\garrysmod\gamemodes\gearfox\gamemode\shared.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1688" startPos="1860" endPos="1860" selMode="0" lang="Lua" encoding="-1" filename="C:\Games\Steam\steamapps\calle0411\garrysmod\garrysmod\gamemodes\gearfox\gamemode\cl_hud\menus\menu_huddesigner.lua" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1120" startPos="700" endPos="700" selMode="0" lang="Lua" encoding="-1" filename="C:\Games\Steam\steamapps\calle0411\garrysmod\garrysmod\gamemodes\gearfox\gamemode\cl_various\calcview.lua" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

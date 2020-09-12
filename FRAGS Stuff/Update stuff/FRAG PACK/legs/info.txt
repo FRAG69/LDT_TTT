@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"		"GMod Legs"
+	"version"	"2.4 (SVN)"
+	"up_date"	"September 11th, 2010"
+	"author_name"	"blackops7799"
+	"author_email"	"blackops7799@gmail.com"
+	"author_url"	"www.blackopsservers.com"
+	
+	"info"		"Adds legs to your player. Now 100% Clientsided"
+}

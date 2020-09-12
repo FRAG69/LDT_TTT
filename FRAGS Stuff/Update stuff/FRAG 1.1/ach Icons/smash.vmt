@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "achievements/smash"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

@@ -1,0 +1,15 @@
+resource.AddFile("models/dildo.mdl")
+resource.AddFile("models/Dildo.phy")
+resource.AddFile("models/Dildo.dx80.vtx")
+resource.AddFile("models/Dildo.dx90.vtx")
+resource.AddFile("models/Dildo.sw.vtx")
+resource.AddFile("models/dildo.vvd")
+
+resource.AddFile("models/dildo2.mdl")
+resource.AddFile("models/Dildo2.phy")
+resource.AddFile("models/Dildo2.dx80.vtx")
+resource.AddFile("models/Dildo2.dx90.vtx")
+resource.AddFile("models/Dildo2.sw.vtx")
+resource.AddFile("models/dildo2.vvd")
+
+resource.AddFile("settings/spawnlist/Dildooo.txt")

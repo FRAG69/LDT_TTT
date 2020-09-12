@@ -1,0 +1,11 @@
+--------------------------------------------------------------------------
+- Version 1.1
+--------------------------------------------------------------------------
+
+Fixed scrapMetal/player not loading.
+Fixed loading in singleplayer.
+Fixed admin give scrap metal menu amount option.
+Cleaning up clientside hat entities better now, hopefully fixed a Opaque render crash.
+Added trail color option.
+Added "GoldenForge <version>" tags to sv_tags ConVar.
+Added a info message when player spawns.

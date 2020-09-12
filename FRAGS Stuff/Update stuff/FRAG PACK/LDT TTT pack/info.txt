@@ -1,0 +1,10 @@
+"AddonInfo"
+ {
+    "name"                "LDT TTT pack"
+    "version"             "1.0"
+    "up_date"             ""
+    "author_name"         "[LDT] FRAG, [LDT] my_hat_stinks [GFL] & Kazaki"
+    "author_email"        ""
+    "author_url"	  ""
+    "info"                "Add on pack for TTT"
+    "override"            "0"

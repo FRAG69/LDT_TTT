@@ -1,0 +1,13 @@
+"Gamemode"
+{
+	"name"		"Gearfox"
+	"version"	"1.0"
+
+	"author_name"	"The Maw"
+	"author_email"	"cjbremer@gmail.com"
+	"author_url"	"www.devinity2.eu"
+	
+	"icon"		""
+	"info"		"The new update for MawBase"
+	"hide"		"1"
+}

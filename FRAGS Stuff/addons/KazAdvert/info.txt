@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"			"KazAdvert"
+	"version"		"1.0"
+	"up_date"		"March 2010"
+	"author_name"	"Kazaki"
+	"author_url"	""
+	"author_email"	""
+	"info"			"Adverts for a server."
+}
