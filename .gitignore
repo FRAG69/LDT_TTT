@@ -1,0 +1,10 @@
+# ignore everything
+*
+# but descend into directories
+!*/
+# allow the below only
+!/LDT TTT Unused files/**
+!/addons/**
+!/cfg/server.cfg
+!/gamemodes/terrortown/**
+!.gitignore
