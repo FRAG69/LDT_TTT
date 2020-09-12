@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\v_models\smg_p90\knife"
+	"$envmapmask" "models\weapons\v_models\smg_p90\knife ref"
+	"$alphatest" "1"
+	"$translucent" "1"
+}

@@ -1,0 +1,6 @@
+"AddonInfo"
+{
+	"name" "TTT Round End Slowmotion"
+	"author_name" "Unknown"
+	"info" "Briefly slows down the time on the last kill of a round. A simple aesthetic addon for TTT servers. The visual effect can be controlled serverside with the cvar "ttt_slowmo_draw" (default 1)  Requires Trouble in Terrorist Town For Servers only, this will not do anything if installed on a client.  Issues: Needs expanded customization capacity; Very rarely doesn't activate;  Changelog: 12/29/2012: [Added] Server CVar ttt_slowmo_draw (def. 1): Controls clientside screen effects. [Removed] Cvar ttt_draw_slowmo; The server now controls whether screen effects are done clientside;  12/22/2012: [Added] Convar: ttt_slowmo_sound (def. ""): specify a sound (relative to the sounds directory) to be played;  11/13/2012: [Added] Now features a visual effect during slowmo: Designed by SaHeMeRa;  11/10/2012: Initial release; [Fixed] Killing outside the round no longer initiates slowmo;"
+}

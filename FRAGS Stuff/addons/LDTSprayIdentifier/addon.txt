@@ -1,0 +1,10 @@
+"AddonInfo"
+ {
+ 	"name"		"LDT Spray Identifier"
+ 	"version"	"1"
+ 	"up_date"	"18-06-2013"
+ 	"author_name"	"xXINinjaMeisterIXx"
+ 	"author_email"	"pm xXINinjaMeisterIXx @ wwwl.LDT-clan.com"
+ 	"author_url"	"www.LDT-clan.com"
+ 	"info"		"LDT Spray Identifier"
+ }

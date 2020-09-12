@@ -1,0 +1,13 @@
+SpawnMenu
+{
+	Information
+	{
+		version		2
+		name		"Dildoooo"
+	}
+	Entries
+	{
+		1		"models/dildo.mdl"
+		2		"models/dildo2.mdl"
+	}
+}

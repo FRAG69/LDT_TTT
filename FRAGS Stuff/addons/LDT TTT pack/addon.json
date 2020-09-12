@@ -1,0 +1,11 @@
+{
+	"title"		:	"LDT TTT Content Pack",
+	"type"		:	"server content",
+	"tags"		:	[ "fun" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}

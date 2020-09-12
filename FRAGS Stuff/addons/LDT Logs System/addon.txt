@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"LDT Logs System"
+	"version"			"2"
+	"up_date"			"06/09/2013"
+	"author_name"			""
+	"author_email"			""
+	"author_url"			""
+	"info"				""
+	"override"			"0"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "paperbag"
+	"$model" 1
+	"$envmapmode" 1
+	"$alphatest" 1
+}

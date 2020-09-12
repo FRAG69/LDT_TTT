@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"LDTmyvote"
+	"version"			"3"
+	"up_date"			"00/00/00"
+	"author_name"			""
+	"author_email"			""
+	"author_url"			""
+	"info"				""
+	"override"			"0"
+}

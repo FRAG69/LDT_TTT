@@ -1,0 +1,6 @@
+"AddonInfo"
+{
+	"name" "Hit Numbers"
+	"author_name" "Unknown"
+	"info" "Adds damage indicators whenever you hurt something. This addon is Serverside & Clientside. (If multiplayer, the server must host this addon to work.)  View changelog here: http://goo.gl/yyLRM  Console commands:  Clients: hitnums_3dtext 0/1 - Set to 0 if you prefer the legacy 2D text. hitnums_enable 0/1 - Show or hide (respectively) the indicators in-game.  Server: sv_hitnums_ignorez 0/1 - Ignore depth testing. Basically, setting this to 1 means you can see the indicators through walls and shit. sv_hitnums_show 0/1 - Disable/Enable this addon server-wide. sv_hitnums_showalldamage 0/1 - Set to 1 to show all damage inflictions from any player or NPC"
+}
