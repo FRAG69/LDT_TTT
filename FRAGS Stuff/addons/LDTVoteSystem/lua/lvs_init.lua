@@ -1,4 +1,3 @@
-
 /*
 |	 _     ______ _____   _   _       _                      _                  
 |	| |    |  _  \_   _| | | | |     | |                    | |                 
@@ -13,16 +12,20 @@ By Frag and psycix
 /*-------------------------------------------------------------------------------------------------------------------------
 	Setup
 -------------------------------------------------------------------------------------------------------------------------*/
+CreateConVar("LVS_maxrounds", 7, FCVAR_NOTIFY)
+
 local allmaps = {}
-local allicons = {}
 local mapsinvote = {}
 local votes = {}
 local we_are_voting = false
+local roundsplayed = 0
+util.AddNetworkString( "LDT_startvote" )
 
 //Fill allmaps table
-for k,v in pairs(file.Find("maps/*.bsp", true)) do
+//for k,v in pairs(file.Find("maps/*.bsp", "GAME")) do
+for k,v in pairs(file.Find("maps/*.bsp", "GAME")) do
 	local str = string.lower(v)
-	if string.Left(str, 4) == "ttt_" or string.Left(str, 3) == "de_" or string.Left(str, 3) == "cs_" or string.Left(str, 3) == "dm_" then
+	if string.Left(str, 3) == "ttt_" then
 		table.insert(allmaps, string.Left(v, (string.len(v)-4)) )
 	end
 end
@@ -42,15 +45,43 @@ for i = 1, 6 do
 	end
 end
 
+local function UpdateCVars(cvar, prevv, newv)
+	RunConsoleCommand("ttt_round_limit", newv + 1)
+end
+
+cvars.AddChangeCallback("LVS_maxrounds", UpdateCVars)
+
+/*
+for i=0, table.count(allmaps) do
+    allmaps[i].pic = string.gsub( allmaps[i], ".bsp", ".png" )
+end
+*/
+
+/*-------------------------------------------------------------------------------------------------------------------------
+	Count the rounds!
+-------------------------------------------------------------------------------------------------------------------------*/
+function RoundsPlayed()
+	roundsplayed = roundsplayed + 1
+	if roundsplayed == GetConVarNumber("LVS_maxrounds") then 
+		LVS_Startvote() 
+	end
+end
+
+hook.Add("TTTEndRound", "RoundsPlayed", RoundsPlayed)	
+
+game.ConsoleCommand("ttt_round_limit " .. GetConVarNumber("LVS_maxrounds") + 1 .. "\n")
+
+
+
 /*-------------------------------------------------------------------------------------------------------------------------
 	Start
 -------------------------------------------------------------------------------------------------------------------------*/
 function LVS_Startvote()
-	umsg.Start( "LDT_startvote" )
+	net.Start( "LDT_startvote" )
 		for i = 1, 6 do
-			umsg.String( mapsinvote[i] )
+			net.WriteString( mapsinvote[i] )
 		end
-	umsg.End()
+	net.Broadcast()
 	
 	we_are_voting = true
 
@@ -89,7 +120,7 @@ concommand.Add( "LDT_Vote", function( ply, com, args )
 	if ( !votes[vote] ) then votes[vote] = 0 end
 	votes[vote] = votes[vote] + 1
 	
-	umsg.Start( "LDT_Vote" )
+	net.Start( "LDT_Vote" )
 		for i = 1, 6 do
 			if ( votes[i] ) then
 				umsg.Char( votes[i] )
@@ -115,6 +146,7 @@ function LVS_Chat_RTV(ply)
 		ply.LDTRTV = true
 		for k,v in pairs(player.GetAll()) do
 			v:ChatPrint(ply:Nick().." has rocked the vote by typing !rtv") //TODO: Make it look fancy instead of chatprint.
+			//evolve:Notify( evolve.colors.blue, ply:Nick(), evolve.colors.white, " has rocked the vote by typing ", evolve.colors.red, " !rtv " )
 		end
 	else
 		ply:ChatPrint("You already RTV-ed!")
@@ -170,5 +202,7 @@ function GAMEMODE:VoteForChange(pl) //Change button will run our !rtv.
 end
 
 end )
+
+
 
 

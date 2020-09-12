@@ -15,11 +15,13 @@ By Frag and psycix
 -------------------------------------------------------------------------------------------------------------------------*/
 local mapcandidates = {}
 local maps = {}
+local allmaps = {}
 local votes = {}
 for i=1,6 do
 	votes[i] = 0
 end
 local vote
+local votemusic = "vote/vote_music.mp3"
 
 /*-------------------------------------------------------------------------------------------------------------------------
 	Update maps and start vote
@@ -32,6 +34,8 @@ usermessage.Hook( "LDT_startvote", function( um )
 	votestarttime = CurTime()
 	hook.Add("HUDPaint","DrawVotes",LVS_DrawVotingGui)
 	gui.EnableScreenClicker( true )
+	
+	surface.PlaySound( votemusic )
 	
 	
 	//Also override the scoreboard hiding function so that our cursor doesn't disappear if hitting TAB by accident.
@@ -56,10 +60,26 @@ usermessage.Hook( "LDT_Vote", function( um )
 end )
 
 /*-------------------------------------------------------------------------------------------------------------------------
-	Draw vote menu
+	Draw vote menu (With added Font tables (Cuz Garry is a pain))
 -------------------------------------------------------------------------------------------------------------------------*/
-surface.CreateFont ("coolvetica", 32, 400, true, false, "VotingTitle")
-surface.CreateFont ("coolvetica", 24, 400, true, false, "VotingOthers")
+
+surface.CreateFont( "VotingTitle",
+	{
+		font      = "coolvetica",
+		size      = 32,
+		weight    = 400,
+	}
+
+ )
+
+ surface.CreateFont( "VotingOthers",
+	{
+		font      = "coolvetica",
+		size      = 24,
+		weight    = 400,
+	}
+
+ )
 
 function LVS_DrawVotingGui()
 	local dr = {} //Drawing coordinates n stuff.
@@ -89,20 +109,6 @@ function LVS_DrawVotingGui()
 	
 	if vote then
 		draw.RoundedBox( 4, dr.x, dr.y+(25*(vote-1)), dr.w-50, 25, Color(233,152,37) ) //Make a box to indicate we voted on this.
-	end
-	
-	//local tex = surface.GetTextureID("maps/noicon")
-	local tex = surface.GetTextureID("maps/"..#votes[i], "maps/noicon")
-	
-	if MouseX > dr.x and MouseX < dr.x+dr.w then //Are we within the window? (x-wise)
-		for i=1, #maps do
-			if MouseY >= dr.y+(25*(i-1)) and MouseY < dr.y+(25*i) then
-				surface.SetTexture(tex)
-                surface.SetDrawColor(255, 255, 255, 255)
-                surface.DrawTexturedRect(dr.x , dr.y, 64, 64)
-
-			end
-		end
 	end
 	
 	if MouseX > dr.x and MouseX < dr.x+dr.w then //Are we within the window? (x-wise)

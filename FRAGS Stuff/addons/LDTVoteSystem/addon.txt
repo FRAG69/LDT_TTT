@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"			"LDTVoteSystem"
+	"version"		"1.5"
+	"up_date"		"19/11/12"
+	"author_name"		"FRAG, kicked into gear by Psycix"
+	"author_email"		""
+	"author_url"		"http://www.ldt-clan.com"
+	"info"			"The LDT vote map system, with added !rtv #UPDATED FOR GMOD13#"
+	"override"		"0"
+}

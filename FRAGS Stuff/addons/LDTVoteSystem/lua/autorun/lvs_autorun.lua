@@ -1,5 +1,5 @@
 // Send the files to clients
-AddCSLuaFile( "autorun/lvs_autorun.lua" )
+//AddCSLuaFile( "autorun/lvs_autorun.lua" )
 AddCSLuaFile( "lvs_cl_init.lua" )
 
 // Load the file according to the Lua state
