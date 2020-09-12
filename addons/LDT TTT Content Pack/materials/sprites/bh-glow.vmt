@@ -1,0 +1,32 @@
+"UnlitGeneric"
+{
+	"$basetexture" "Decals/scorch1"
+	"$translucent" 1
+	"$nofog" 1
+	"$rotLin" 0
+	"$rotMul" -20.0
+	"$cRot" 0
+	"$cSc" "[0.85 0.85]"
+	"$basetexturetransform" "center .5 .5 scale .1 .1 rotate 0 translate 0 0"
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" 1
+			"initialValue" 0
+			"resultVar" "$rotLin"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$rotLin"
+			"srcVar2" "$rotMul"
+			"resultVar" "$cRot"
+		}
+		"TextureTransform"
+		{
+			"rotateVar" "$cRot"
+			"scaleVar" "$cSc"
+			"resultVar" "$basetexturetransform"
+		}
+	}
+}

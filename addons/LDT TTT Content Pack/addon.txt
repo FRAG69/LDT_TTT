@@ -1,0 +1,11 @@
+"AddonInfo"
+ {
+    "name"                "TTT LDT Content Pack
+    "version"             "2.0"
+    "up_date"             ""
+    "author_name"         ""
+    "author_email"        ""
+    "author_url"	  "ldt.gg"
+    "info"                Content pack for TTT"
+    "override"            "0"
+}

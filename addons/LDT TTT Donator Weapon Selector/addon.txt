@@ -1,0 +1,6 @@
+"AddonInfo"
+{
+	"name" "TTT Donator Weapon Selector"
+	"author_name" "Frag(?)"
+	"info" "Allows donators to select which weapons they will spawn with"
+}

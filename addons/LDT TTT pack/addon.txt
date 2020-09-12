@@ -1,0 +1,11 @@
+"AddonInfo"
+ {
+    "name"                "LDT TTT pack"
+    "version"             "2.0"
+    "up_date"             ""
+    "author_name"         "FRAG Kazaki Cyrill"
+    "author_email"        ""
+    "author_url"	  "ldt.gg"
+    "info"                "Addon pack for TTT"
+    "override"            "0"
+}
