@@ -15,7 +15,7 @@ SWEP.HoldType			= "ar2"
 if CLIENT then
 
 
-   SWEP.PrintName			= "M16A3"
+   SWEP.PrintName			= "M16"
    SWEP.Slot				= 2
 
 
@@ -36,7 +36,7 @@ SWEP.WeaponID = AMMO_M16
 
 SWEP.Primary.Delay			= 0.1
 SWEP.Primary.Recoil			= 1.3
-SWEP.Primary.Automatic = true
+SWEP.Primary.Automatic = false
 SWEP.Primary.Ammo = "Pistol"
 SWEP.Primary.Damage = 14
 SWEP.Primary.Cone = 0.015

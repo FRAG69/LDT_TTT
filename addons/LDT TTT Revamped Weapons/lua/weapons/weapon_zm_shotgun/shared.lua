@@ -9,7 +9,7 @@ SWEP.HoldType			= "shotgun"
 
 
 if CLIENT then
-   SWEP.PrintName = "M1014"
+   SWEP.PrintName = "Auto Shotgun"
 
 
    SWEP.Slot = 2
@@ -31,7 +31,7 @@ SWEP.WeaponID = AMMO_SHOTGUN
 SWEP.Primary.Ammo = "Buckshot"
 SWEP.Primary.Damage = 9
 SWEP.Primary.Cone = 0.075
-SWEP.Primary.Delay = 0.15
+SWEP.Primary.Delay = 0.3
 SWEP.Primary.ClipSize = 8
 SWEP.Primary.ClipMax = 24
 SWEP.Primary.DefaultClip = 8
