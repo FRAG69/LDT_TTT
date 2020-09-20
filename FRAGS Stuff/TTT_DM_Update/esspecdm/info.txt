@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+	"name"		"ES TTT Spectator Deathmatch"
+	"version"	"1.5.1"
+	"author_name"	"Exile Studios"
+	"author_email"	"officialexile@live.com"
+	"author_url"	"http://exile-studios.com/"
+}

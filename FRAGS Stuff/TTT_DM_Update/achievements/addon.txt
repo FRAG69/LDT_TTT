@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+    "name"            "Achievements"
+    "version"         "1.2.1"
+    "up_date"         "12/06/2014"
+    "author_name"     "Handsome Matt"
+    "author_email"    ""
+    "author_url"      ""
+    "info"            ""
+    "override"        "0"
+}

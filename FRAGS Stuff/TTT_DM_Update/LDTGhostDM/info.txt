@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+	"name"		"TTT Spectator Deathmatch"
+	"version"	"1"
+	"author_name"	""
+	"author_email"	""
+	"author_url"	""
+}
