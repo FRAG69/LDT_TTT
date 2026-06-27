@@ -7,7 +7,7 @@ SWEP.HoldType           = "ar2"
 
 
 if CLIENT then
-   SWEP.PrintName          = "Steyr Scout"
+   SWEP.PrintName          = "Scout"
 
 
    SWEP.Slot               = 2

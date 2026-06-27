@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+	"name"				"LDT TTT Revamped Weapons"
+	"version"			"1.0"
+	"up_date"			"September 2020"
+	"author_name"		"Cyrill and Frag"
+	"override"			"0"
+}

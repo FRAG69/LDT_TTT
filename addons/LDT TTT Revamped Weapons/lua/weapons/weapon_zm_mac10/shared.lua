@@ -9,7 +9,7 @@ SWEP.HoldType = "ar2"
 if CLIENT then
 
 
-   SWEP.PrintName = "Ingram M11"
+   SWEP.PrintName = "MAC 10"
    SWEP.Slot = 2
 
 
